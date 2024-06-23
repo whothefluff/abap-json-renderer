@@ -12,5 +12,5 @@ ABAP variables to JSON format
 
 - Call the method with the variable as an argument:
    ```abap
-   json_renderer->render( itab ).
+   data(json) = json_renderer->render( itab ).
    ```
